@@ -1,0 +1,7 @@
+package com.btm.jspider.SpringCore;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AppTest {
+	ClassPathXmlApplicationContext ctx=new ClassPathXmlApplicationContext();
+}
