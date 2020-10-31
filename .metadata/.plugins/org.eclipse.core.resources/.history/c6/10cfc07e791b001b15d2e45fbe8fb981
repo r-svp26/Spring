@@ -1,0 +1,5 @@
+package com.jsp.SpringJDBC.entity;
+
+public class Employee {
+
+}
