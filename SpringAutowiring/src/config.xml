@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- FlipKart Bean -->
+	<bean id="fp" class="org.jsp.autowiring.FlipkartController"
+		autowire="byName">
+	</bean>
+
+	<!-- Dependency Bean -->
+	<bean id="ec" class="org.jsp.autowiring.Electronic"></bean>
+	<bean id="fr" class="org.jsp.autowiring.Furniture"></bean>
+	<bean id="cos" class="org.jsp.autowiring.Cosmetic"></bean>
+
+</beans>

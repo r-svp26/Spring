@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;HibernateServlet/src/org/jsp/mvcApp&apos; to &apos;mvcapp&apos;" description="Rename resource &apos;mvcApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/jsp/mvcApp" name="mvcapp" stamp="1606791262050" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;HibernateServlet/src/org/jsp/mvcapp&apos; to &apos;mvcApp&apos;" description="Rename resource &apos;mvcapp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/jsp/mvcapp" name="mvcApp" stamp="1606791285724" updateReferences="true"/>
+</session>

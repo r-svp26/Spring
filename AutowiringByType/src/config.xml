@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- FlipKart Bean -->
+	<bean id="fp" class="org.jsp.controller.Flipkart" autowire="byType" />
+
+	<!-- Dependency Bean -->
+	<bean id="ect" class="org.jsp.dependency.Electronic" />
+	<!-- Whenever ClassName are same in case of byType, the we use below Attribute 
+		for the Bean which is not needed -->
+	<bean id="ectrn" class="org.jsp.dependency.Electronic"
+		autowire-candidate="false" />
+	<bean id="frn" class="org.jsp.dependency.Furniture" />
+	<bean id="csm" class="org.jsp.dependency.Cosmetic" />
+
+</beans>

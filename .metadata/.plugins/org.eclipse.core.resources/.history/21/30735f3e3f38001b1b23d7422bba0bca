@@ -1,0 +1,16 @@
+package org.jsp.springApp;
+
+/* POJO Class*/
+Dispatcher
+public class Demo {
+
+	private String nm;
+
+	public String getNm() {
+		return nm;
+	}
+
+	public void setNm(String nm) {
+		this.nm = nm;
+	}
+}

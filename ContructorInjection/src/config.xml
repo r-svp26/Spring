@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Engine Bean -->
+	<bean id="en" class="org.jsp.ci.entity.Engine">
+		<constructor-arg name="engine_number" value="10121"></constructor-arg>
+		<constructor-arg name="horse_power" value="740"></constructor-arg>
+		<constructor-arg name="type" value="Petrol"></constructor-arg>
+	</bean>
+
+	<!-- BMW Bean -->
+	<bean id="bm" class="org.jsp.ci.impl.BMWImpl">
+		<constructor-arg name="id" value="101"></constructor-arg>
+		<constructor-arg name="color" value="Black"></constructor-arg>
+		<!-- Class Type: Whenever use Class Type, then we have to use reference 
+			Attribute -->
+		<constructor-arg name="engine" ref="en"></constructor-arg>
+		<!-- Collection Type -->
+		<constructor-arg name="wheel">
+			<list>
+				<value>Wheel1</value>
+				<value>Wheel2</value>
+				<value>Wheel3</value>
+				<value>Wheel4</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<!-- Audi Bean -->
+	<bean id="ad" class="org.jsp.ci.impl.AudiImpl" />
+
+</beans>

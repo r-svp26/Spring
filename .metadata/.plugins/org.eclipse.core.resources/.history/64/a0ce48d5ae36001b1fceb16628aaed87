@@ -1,0 +1,12 @@
+package org.jsp.springApp;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class DemoController {
+
+	public DemoController() {
+		System.out.println("DemoController Object has created!");
+	}
+	
+}

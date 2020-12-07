@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AutowiringConstructor/src/org/jsp/dependecy&apos; to &apos;dependency&apos;" description="Rename resource &apos;dependecy&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/jsp/dependecy" name="dependency" stamp="1606026771203" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+package org.jsp.springApp;
+
+/* POJO Class*/
+public class Demo {
+
+}

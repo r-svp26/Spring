@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Engine Bean -->
+	<bean id="en" class="org.jsp.si.Engine">
+		<property name="engine_number" value="9102"></property>
+		<property name="horse_power" value="240"></property>
+		<property name="type" value="Petrol"></property>
+	</bean>
+
+	<!-- BMW Bean -->
+	<bean id="bw" class="org.jsp.si.BMWImpl">
+		<property name="id" value="777"></property>
+		<property name="color" value="black"></property>
+
+		<property name="engine" ref="en"></property>
+
+		<property name="wheel">
+			<list>
+				<value>Wheel1</value>
+				<value>Wheel2</value>
+				<value>Wheel3</value>
+				<value>Wheel4</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- Auudi Bean -->
+	<bean id="ad" class="org.jsp.si.AudiImpl">
+	</bean>
+
+</beans>
