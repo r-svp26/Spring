@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<meta charset="ISO-8859-1">
+<body bgcolor="pale pink">
+
+	<form action="reg" method="post">
+		<h1>JSpiders Employee Registration</h1>
+		<table>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="fn"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="ln"></td>
+			</tr>
+			<tr>
+				<td>Email Id:</td>
+				<td><input type="text" name="em"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pw"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Register"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

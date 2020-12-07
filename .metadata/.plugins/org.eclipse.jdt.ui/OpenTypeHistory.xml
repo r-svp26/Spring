@@ -2,4 +2,6 @@
 <typeInfoHistroy>
 <typeInfo handle="=SetterInjection/src&lt;org.jsp.si{ICar.java[ICar" modifiers="513" timestamp="1605065628292"/>
 <typeInfo handle="=ContructorInjection/src&lt;org.jsp.ci.service{ICar.java[ICar" modifiers="513" timestamp="1605250124366"/>
+<typeInfo handle="=SpringMVCProject/WebContent\/WEB-INF\/lib\/spring-webmvc-4.0.4.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1607338529290"/>
+<typeInfo handle="=SpringMVCProject/WebContent\/WEB-INF\/lib\/spring-webmvc-4.0.4.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1607338529290"/>
 </typeInfoHistroy>
